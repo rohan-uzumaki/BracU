@@ -1,0 +1,42 @@
+# --- Videos / audio (too big for GitHub) ---
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.mp3
+*.wav
+*.m4a
+
+# --- Archives, binaries, build output ---
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+*.class
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# --- Bundled libraries (reinstall with pip instead) ---
+OpenGL/
+venv/
+.venv/
+node_modules/
+
+# --- Not BracU coursework / local-only ---
+Previous Semesters/Tarc Files/
+.autosync/
+tempCodeRunnerFile.py
+
+# --- Secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Windows / Office junk ---
+desktop.ini
+Thumbs.db
+~$*
